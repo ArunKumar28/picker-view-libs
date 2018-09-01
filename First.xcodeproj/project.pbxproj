@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6EB6DD062116D6E80070BB19 /* test1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB6DD052116D6E80070BB19 /* test1ViewController.swift */; };
+		6EB6DD0821170D370070BB19 /* customPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB6DD0721170D370070BB19 /* customPickerView.swift */; };
 		6EDAC28E210CC69A00CF9FBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDAC28D210CC69A00CF9FBA /* AppDelegate.swift */; };
 		6EDAC290210CC69A00CF9FBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDAC28F210CC69A00CF9FBA /* ViewController.swift */; };
 		6EDAC293210CC69A00CF9FBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EDAC291210CC69A00CF9FBA /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6EB6DD052116D6E80070BB19 /* test1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test1ViewController.swift; sourceTree = "<group>"; };
+		6EB6DD0721170D370070BB19 /* customPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customPickerView.swift; sourceTree = "<group>"; };
 		6EDAC28A210CC69A00CF9FBA /* First.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = First.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EDAC28D210CC69A00CF9FBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6EDAC28F210CC69A00CF9FBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,12 +101,14 @@
 		6EDAC28C210CC69A00CF9FBA /* First */ = {
 			isa = PBXGroup;
 			children = (
+				6EB6DD052116D6E80070BB19 /* test1ViewController.swift */,
 				6EDAC28D210CC69A00CF9FBA /* AppDelegate.swift */,
 				6EDAC28F210CC69A00CF9FBA /* ViewController.swift */,
 				6EDAC291210CC69A00CF9FBA /* Main.storyboard */,
 				6EDAC294210CC69B00CF9FBA /* Assets.xcassets */,
 				6EDAC296210CC69B00CF9FBA /* LaunchScreen.storyboard */,
 				6EDAC299210CC69B00CF9FBA /* Info.plist */,
+				6EB6DD0721170D370070BB19 /* customPickerView.swift */,
 			);
 			path = First;
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EDAC290210CC69A00CF9FBA /* ViewController.swift in Sources */,
+				6EB6DD0821170D370070BB19 /* customPickerView.swift in Sources */,
 				6EDAC28E210CC69A00CF9FBA /* AppDelegate.swift in Sources */,
+				6EB6DD062116D6E80070BB19 /* test1ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
