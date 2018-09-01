@@ -38,17 +38,17 @@
 /* Begin PBXFileReference section */
 		6EB6DD052116D6E80070BB19 /* test1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test1ViewController.swift; sourceTree = "<group>"; };
 		6EB6DD0721170D370070BB19 /* customPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customPickerView.swift; sourceTree = "<group>"; };
-		6EDAC28A210CC69A00CF9FBA /* First.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = First.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EDAC28A210CC69A00CF9FBA /* CustomPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EDAC28D210CC69A00CF9FBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6EDAC28F210CC69A00CF9FBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6EDAC292210CC69A00CF9FBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6EDAC294210CC69B00CF9FBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6EDAC297210CC69B00CF9FBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6EDAC299210CC69B00CF9FBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6EDAC29E210CC69C00CF9FBA /* FirstTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EDAC29E210CC69C00CF9FBA /* CustomPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EDAC2A2210CC69C00CF9FBA /* FirstTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTests.swift; sourceTree = "<group>"; };
 		6EDAC2A4210CC69C00CF9FBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6EDAC2A9210CC69C00CF9FBA /* FirstUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EDAC2A9210CC69C00CF9FBA /* CustomPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EDAC2AD210CC69C00CF9FBA /* FirstUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstUITests.swift; sourceTree = "<group>"; };
 		6EDAC2AF210CC69C00CF9FBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,9 +91,9 @@
 		6EDAC28B210CC69A00CF9FBA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6EDAC28A210CC69A00CF9FBA /* First.app */,
-				6EDAC29E210CC69C00CF9FBA /* FirstTests.xctest */,
-				6EDAC2A9210CC69C00CF9FBA /* FirstUITests.xctest */,
+				6EDAC28A210CC69A00CF9FBA /* CustomPicker.app */,
+				6EDAC29E210CC69C00CF9FBA /* CustomPickerTests.xctest */,
+				6EDAC2A9210CC69C00CF9FBA /* CustomPickerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,9 +134,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6EDAC289210CC69A00CF9FBA /* First */ = {
+		6EDAC289210CC69A00CF9FBA /* CustomPicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6EDAC2B2210CC69C00CF9FBA /* Build configuration list for PBXNativeTarget "First" */;
+			buildConfigurationList = 6EDAC2B2210CC69C00CF9FBA /* Build configuration list for PBXNativeTarget "CustomPicker" */;
 			buildPhases = (
 				6EDAC286210CC69A00CF9FBA /* Sources */,
 				6EDAC287210CC69A00CF9FBA /* Frameworks */,
@@ -146,14 +146,14 @@
 			);
 			dependencies = (
 			);
-			name = First;
+			name = CustomPicker;
 			productName = First;
-			productReference = 6EDAC28A210CC69A00CF9FBA /* First.app */;
+			productReference = 6EDAC28A210CC69A00CF9FBA /* CustomPicker.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6EDAC29D210CC69C00CF9FBA /* FirstTests */ = {
+		6EDAC29D210CC69C00CF9FBA /* CustomPickerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6EDAC2B5210CC69C00CF9FBA /* Build configuration list for PBXNativeTarget "FirstTests" */;
+			buildConfigurationList = 6EDAC2B5210CC69C00CF9FBA /* Build configuration list for PBXNativeTarget "CustomPickerTests" */;
 			buildPhases = (
 				6EDAC29A210CC69C00CF9FBA /* Sources */,
 				6EDAC29B210CC69C00CF9FBA /* Frameworks */,
@@ -164,14 +164,14 @@
 			dependencies = (
 				6EDAC2A0210CC69C00CF9FBA /* PBXTargetDependency */,
 			);
-			name = FirstTests;
+			name = CustomPickerTests;
 			productName = FirstTests;
-			productReference = 6EDAC29E210CC69C00CF9FBA /* FirstTests.xctest */;
+			productReference = 6EDAC29E210CC69C00CF9FBA /* CustomPickerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6EDAC2A8210CC69C00CF9FBA /* FirstUITests */ = {
+		6EDAC2A8210CC69C00CF9FBA /* CustomPickerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6EDAC2B8210CC69C00CF9FBA /* Build configuration list for PBXNativeTarget "FirstUITests" */;
+			buildConfigurationList = 6EDAC2B8210CC69C00CF9FBA /* Build configuration list for PBXNativeTarget "CustomPickerUITests" */;
 			buildPhases = (
 				6EDAC2A5210CC69C00CF9FBA /* Sources */,
 				6EDAC2A6210CC69C00CF9FBA /* Frameworks */,
@@ -182,9 +182,9 @@
 			dependencies = (
 				6EDAC2AB210CC69C00CF9FBA /* PBXTargetDependency */,
 			);
-			name = FirstUITests;
+			name = CustomPickerUITests;
 			productName = FirstUITests;
-			productReference = 6EDAC2A9210CC69C00CF9FBA /* FirstUITests.xctest */;
+			productReference = 6EDAC2A9210CC69C00CF9FBA /* CustomPickerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6EDAC285210CC69A00CF9FBA /* Build configuration list for PBXProject "First" */;
+			buildConfigurationList = 6EDAC285210CC69A00CF9FBA /* Build configuration list for PBXProject "CustomPicker" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,9 +223,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6EDAC289210CC69A00CF9FBA /* First */,
-				6EDAC29D210CC69C00CF9FBA /* FirstTests */,
-				6EDAC2A8210CC69C00CF9FBA /* FirstUITests */,
+				6EDAC289210CC69A00CF9FBA /* CustomPicker */,
+				6EDAC29D210CC69C00CF9FBA /* CustomPickerTests */,
+				6EDAC2A8210CC69C00CF9FBA /* CustomPickerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -290,12 +290,12 @@
 /* Begin PBXTargetDependency section */
 		6EDAC2A0210CC69C00CF9FBA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6EDAC289210CC69A00CF9FBA /* First */;
+			target = 6EDAC289210CC69A00CF9FBA /* CustomPicker */;
 			targetProxy = 6EDAC29F210CC69C00CF9FBA /* PBXContainerItemProxy */;
 		};
 		6EDAC2AB210CC69C00CF9FBA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6EDAC289210CC69A00CF9FBA /* First */;
+			target = 6EDAC289210CC69A00CF9FBA /* CustomPicker */;
 			targetProxy = 6EDAC2AA210CC69C00CF9FBA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -484,7 +484,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/First.app/First";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomPicker.app/CustomPicker";
 			};
 			name = Debug;
 		};
@@ -504,7 +504,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/First.app/First";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomPicker.app/CustomPicker";
 			};
 			name = Release;
 		};
@@ -549,7 +549,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6EDAC285210CC69A00CF9FBA /* Build configuration list for PBXProject "First" */ = {
+		6EDAC285210CC69A00CF9FBA /* Build configuration list for PBXProject "CustomPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6EDAC2B0210CC69C00CF9FBA /* Debug */,
@@ -558,7 +558,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6EDAC2B2210CC69C00CF9FBA /* Build configuration list for PBXNativeTarget "First" */ = {
+		6EDAC2B2210CC69C00CF9FBA /* Build configuration list for PBXNativeTarget "CustomPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6EDAC2B3210CC69C00CF9FBA /* Debug */,
@@ -567,7 +567,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6EDAC2B5210CC69C00CF9FBA /* Build configuration list for PBXNativeTarget "FirstTests" */ = {
+		6EDAC2B5210CC69C00CF9FBA /* Build configuration list for PBXNativeTarget "CustomPickerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6EDAC2B6210CC69C00CF9FBA /* Debug */,
@@ -576,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6EDAC2B8210CC69C00CF9FBA /* Build configuration list for PBXNativeTarget "FirstUITests" */ = {
+		6EDAC2B8210CC69C00CF9FBA /* Build configuration list for PBXNativeTarget "CustomPickerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6EDAC2B9210CC69C00CF9FBA /* Debug */,
