@@ -13,6 +13,7 @@ class customPickerView: UIPickerView,UIPickerViewDataSource,UIPickerViewDelegate
     var data = [Any]()
     var component = Int()
     var resTextF = UITextField()
+    var selectedStr = String()
     /*
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
@@ -47,12 +48,18 @@ class customPickerView: UIPickerView,UIPickerViewDataSource,UIPickerViewDelegate
         textF.inputAccessoryView = toolBar
     }
     @objc func donePicker() {
+        self.resTextF.text = self.selectedStr
         self.resTextF.resignFirstResponder()
+        if let table = self.resTextF.superview?.superview?.superview as? UITableView {
+            table.reloadData()
+        }
     }
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return component
     }
-    
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        self.selectedStr = "\(data[row])"
+    }
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         return data.count
         

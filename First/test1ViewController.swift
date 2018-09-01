@@ -29,10 +29,10 @@ class test1ViewController: UIViewController,UITableViewDelegate,UITableViewDataS
         return 2
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell")!
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell")! as! customTableViewCell
         let tf = cell.viewWithTag(1) as! UITextField
         var pick = customPickerView()
-        pick.setupPickerView(textF: tf, dataArr: ["\(indexPath.row)","\(indexPath.row)","\(indexPath.row)"], compo: 1)
+        pick.setupPickerView(textF: cell.textF, dataArr: ["\(indexPath.row)","\(indexPath.row)","\(indexPath.row)"], compo: 1)
         
         
         
